@@ -6,7 +6,6 @@
 }
 
 /* regole generali impaginazione */
-
 body {
   background: url(../img/background-totale.png)
 }
@@ -15,8 +14,8 @@ body {
   width: 1200px;
   margin: 0 auto;
 }
-
 /* Fine Regole Generali Impaginazione */
+
 
 /* ----- proprietà header ----- */
 header {
@@ -48,8 +47,8 @@ header {
 }
 /* ----- fine proprietà header ----- */
 
-/* ----- Navigation Bar ----- */
 
+/* ----- Navigation Bar ----- */
 nav {
   margin-bottom: 15px;
 }
@@ -75,8 +74,8 @@ li a {
 li a:hover {
   background-color: #111;
 }
-
 /* ----- Fine Navigation Bar ----- */
+
 
 /* ----- Colori e grandezze dei blocchi ----- */
 .blocco-sx {
@@ -99,30 +98,20 @@ li a:hover {
   border-radius: 10px;
   padding: 20px;
 }
-
-footer {
-  height: 100px;
-  background-color: #ADD8E6;
-  margin-top: 30px;
-  border-radius: 10px;
-}
-
 /* ----- fine colori e grandezze dei blocchi ----- */
 
-/* ----- UTILITY CLASS ----- */
 
+/* ----- UTILITY CLASS ----- */
 /* clearfix */
 .clearfix::after {
   content: "";
   display: table;
   clear: both;
 }
-
 /* floating */
 .float-l {
   float: left;
 }
-
 /* ----- UTILITY CLASS ----- */
 
 
@@ -148,6 +137,7 @@ footer {
 }
 /* FINE TABELLA SINISTRA */
 
+
 /* TABELLA CENTRALE */
 .titolo {
   padding-top: 20px;
@@ -155,7 +145,8 @@ footer {
 }
 /* FINE TABELLA CENTRALE */
 
-/* colonne di destra */
+
+/* ----- COLONNE DI DESTRA ----- */
 .sidebar-content div:first-child {
   height: 300px;
   margin-bottom: 40px;
@@ -186,4 +177,21 @@ footer {
   padding-left: 20px;
   padding-top: 50px;
 }
-/* colonne di destra */
+/* ----- FINE COLONNE DI DESTRA ----- */
+
+
+/* ----- FOOTER ----- */
+footer {
+  height: 200px;
+  background-color: #FFFFFF;
+  margin-top: 30px;
+  border-radius: 10px;
+  text-align: center;
+  color: #CECECE;
+  font-size: 20px;
+}
+
+.immagini-social {
+  float: left;
+}
+/* ----- FINE FOOTER ----- */
