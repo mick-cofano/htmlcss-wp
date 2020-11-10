@@ -6,6 +6,11 @@
 }
 
 /* regole generali impaginazione */
+
+body {
+  background: url(../img/background-totale.png)
+}
+
 .container {
   width: 1200px;
   margin: 0 auto;
