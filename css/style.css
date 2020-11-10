@@ -11,13 +11,36 @@
   margin: 0 auto;
 }
 
-/* colori e grandezze dei blocchi */
+/* ----- proprietà header ----- */
 header {
-  height: 200px;
-  background-color: #FFFF00;
+  background: url(../img/background-header.png);
+  background-size: cover;
+  height: 450px;
   margin-top: 10px;
   margin-bottom: 5px;
+  border: 10px solid white;
 }
+/* proprietà immagine "natural" */
+.header-img {
+  background-image: url(../img/testo-background-header.png);
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+/* proprietà testo header */
+.text-header {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  padding: 30px;
+}
+/* ----- fine proprietà header ----- */
+
 
 .blocco-sx {
   height: 300px;
@@ -73,6 +96,13 @@ footer {
   margin-top: 20px;
   background-color: #D391E3;
 }
+
+.sidebar-content div:nth-child(2) {
+  height: 170px;
+  margin-top: 20px;
+  background-color: #D391E3;
+}
+
 /* fine divisione row destra in due */
 
 .main-content {
