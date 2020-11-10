@@ -80,7 +80,7 @@ li a:hover {
 
 /* ----- Colori e grandezze dei blocchi ----- */
 .blocco-sx {
-  height: 500px;
+  height: 550px;
   width: 25%;
   background-color: white;
   border-radius: 10px;
@@ -91,18 +91,20 @@ li a:hover {
 }
 
 .blocco-centrale {
-  height: 400px;
-  width: calc(50% - 30px);
-  background-color: #800080;
-  margin-left: 15px;
-  margin-right: 15px;
+  height: 350px;
+  width: calc(50% - 80px);
+  background-color: white;
+  margin-left: 40px;
+  margin-right: 40px;
   border-radius: 10px;
+  padding: 20px;
 }
 
 footer {
   height: 100px;
   background-color: #ADD8E6;
-  margin-top: 5px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 
 /* ----- fine colori e grandezze dei blocchi ----- */
@@ -125,7 +127,6 @@ footer {
 
 
 /* TABELLA SINISTRA */
-
 .container-icona-testo {
   display: flex;
 }
@@ -145,28 +146,44 @@ footer {
   background-color: white;
   color: green;
 }
-
 /* FINE TABELLA SINISTRA */
 
+/* TABELLA CENTRALE */
+.titolo {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+/* FINE TABELLA CENTRALE */
 
-
-/* divisione tabella destra in due */
+/* colonne di destra */
 .sidebar-content div:first-child {
-  height: 170px;
-  margin-bottom: 20px;
-  background-color: #D391E3;
+  height: 300px;
+  margin-bottom: 40px;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .sidebar-content div:nth-child(2) {
-  height: 170px;
-  margin-top: 20px;
-  background-color: #D391E3;
+  height: 300px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
 }
 
-/* fine divisione row destra in due */
-
-.main-content {
-  background: blue;
-  border: 2px #111 solid;
-  height: 600px;
+.sidebar-content div:last-child {
+  height: 300px;
+  margin-top: 40px;
+  background-color: white;
+  border-radius: 10px;
 }
+
+.widget {
+  padding-left: 20px;
+  padding-top: 30px;
+}
+
+.h3-widget {
+  padding-left: 20px;
+  padding-top: 50px;
+}
+/* colonne di destra */
