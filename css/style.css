@@ -16,6 +16,8 @@ body {
   margin: 0 auto;
 }
 
+/* Fine Regole Generali Impaginazione */
+
 /* ----- proprietà header ----- */
 header {
   background: url(../img/background-header.png);
@@ -37,7 +39,7 @@ header {
   margin-top: 50px;
   margin-bottom: 30px;
 }
-/* proprietà testo header */
+/* ----- proprietà testo header ----- */
 .text-header {
   font-size: 40px;
   text-align: center;
@@ -46,10 +48,14 @@ header {
 }
 /* ----- fine proprietà header ----- */
 
-/* Navigation Bar */
+/* ----- Navigation Bar ----- */
+
+nav {
+  margin-bottom: 15px;
+}
 
 ul {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   text-align: center;
   background-color: #666666;
@@ -64,19 +70,20 @@ ul li {
 li a {
   display:inline-block;
   padding:15px;
-  color: white;
 }
 
 li a:hover {
   background-color: #111;
 }
 
-/* Fine Navigation Bar */
+/* ----- Fine Navigation Bar ----- */
 
+/* ----- Colori e grandezze dei blocchi ----- */
 .blocco-sx {
-  height: 300px;
+  height: 500px;
   width: 25%;
-  background-color: #D391E3;
+  background-color: white;
+  border-radius: 10px;
 }
 
 .blocco-dx {
@@ -89,6 +96,7 @@ li a:hover {
   background-color: #800080;
   margin-left: 15px;
   margin-right: 15px;
+  border-radius: 10px;
 }
 
 footer {
@@ -97,7 +105,7 @@ footer {
   margin-top: 5px;
 }
 
-/* fine colori e grandezze dei blocchi */
+/* ----- fine colori e grandezze dei blocchi ----- */
 
 /* ----- UTILITY CLASS ----- */
 
@@ -115,16 +123,37 @@ footer {
 
 /* ----- UTILITY CLASS ----- */
 
+
+/* TABELLA SINISTRA */
+
+.container-icona-testo {
+  display: flex;
+}
+
+.icona {
+  padding: 10px;
+}
+
+.testo-icona {
+  font-size: 20px;
+  padding-left: 5px;
+}
+
+.tabella-sx {
+  text-align: left;
+  font-size: 20px;
+  background-color: white;
+  color: green;
+}
+
+/* FINE TABELLA SINISTRA */
+
+
+
 /* divisione tabella destra in due */
 .sidebar-content div:first-child {
   height: 170px;
   margin-bottom: 20px;
-  background-color: #D391E3;
-}
-
-.sidebar-content div:nth-child(2) {
-  height: 170px;
-  margin-top: 20px;
   background-color: #D391E3;
 }
 
