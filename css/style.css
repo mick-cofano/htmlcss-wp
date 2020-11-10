@@ -22,8 +22,8 @@ header {
   background-size: cover;
   height: 450px;
   margin-top: 10px;
-  margin-bottom: 5px;
   border: 10px solid white;
+  line-height: 0;
 }
 /* proprietà immagine "natural" */
 .header-img {
@@ -46,6 +46,32 @@ header {
 }
 /* ----- fine proprietà header ----- */
 
+/* Navigation Bar */
+
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #666666;
+  overflow: hidden;
+  color: white;
+}
+
+ul li {
+  display:inline;
+}
+
+li a {
+  display:inline-block;
+  padding:15px;
+  color: white;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+/* Fine Navigation Bar */
 
 .blocco-sx {
   height: 300px;
