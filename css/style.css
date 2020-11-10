@@ -1,0 +1,82 @@
+/* Reset */
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* regole generali impaginazione */
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* colori e grandezze dei blocchi */
+header {
+  height: 200px;
+  background-color: #FFFF00;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.blocco-sx {
+  height: 300px;
+  width: 25%;
+  background-color: #D391E3;
+}
+
+.blocco-dx {
+  width: 25%;
+}
+
+.blocco-centrale {
+  height: 400px;
+  width: calc(50% - 30px);
+  background-color: #800080;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+footer {
+  height: 100px;
+  background-color: #ADD8E6;
+  margin-top: 5px;
+}
+
+/* fine colori e grandezze dei blocchi */
+
+/* ----- UTILITY CLASS ----- */
+
+/* clearfix */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* floating */
+.float-l {
+  float: left;
+}
+
+/* ----- UTILITY CLASS ----- */
+
+/* divisione tabella destra in due */
+.sidebar-content div:first-child {
+  height: 170px;
+  margin-bottom: 20px;
+  background-color: #D391E3;
+}
+
+.sidebar-content div:nth-child(2) {
+  height: 170px;
+  margin-top: 20px;
+  background-color: #D391E3;
+}
+/* fine divisione row destra in due */
+
+.main-content {
+  background: blue;
+  border: 2px #111 solid;
+  height: 600px;
+}
